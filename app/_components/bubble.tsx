@@ -20,13 +20,13 @@ export default function Bubble({ itemKey, icon, avatarIcon, tooltipSummary, tool
             whileHover={{ scale: 1.1, background: 'white' }}
             {...props}
             className={`
-                    rounded-full bubble-item absolute backdrop-blur-lg bg-white/70 dark:bg-white/10
+                    rounded-full bubble-item absolute backdrop-blur-lg  bg-white/10
                     shadow-[0px_2px_10px_rgba(0,0,0,0.1)]
                     md:p-[1.4rem] p-2.5
                     flex items-center justify-center 
                     cursor-auto
-                    border dark:border-white/10
-                    bg-gradient-to-r from-slate-50/70 to-slate-50 dark:from-white/10 dark:to-transparent
+                    border border-white/10
+                    bg-gradient-to-r  from-white/10 to-transparent
                     transition-transform
                     ${ (largeScreenOnly && !isBiggerThanLg) ? 'hidden' : 'block' }
                     `}>

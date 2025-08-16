@@ -127,7 +127,7 @@ export default function Home() {
   })
 
   return (
-    <div className=" scroll-smooth h-[300vh] relative">
+    <div className=" max-w-lg scroll-smooth h-[300vh] relative">
       <div className={` h-[200vh] scroll-smooth md:h-[240vh] overflow-hidden`}>
         <main ref={ref} className={`flex h-screen  ${ isSmallScreen ? "relative" : 'fixed' } top-0 justify-center pt-20 flex-col gap-[32px] w-full row-start-2 items-center`}>
           <div className="relative z-1 md:pb-10">
