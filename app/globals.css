@@ -36,6 +36,48 @@ body {
     }
 }
 
+
+/* 1440px (standard desktop, MacBook Pro 14/16) */
+@media (min-width: 1440px) {
+  html {
+    font-size: 20px !important;
+  }
+}
+
+/* 1920px (Full HD monitor) */
+@media (min-width: 1920px) {
+  html {
+    font-size: 25px !important;
+  }
+}
+
+/* 2560px (QHD / 2K monitor, common gaming monitors) */
+@media (min-width: 2560px) {
+  html {
+    font-size: 35px !important;
+  }
+}
+
+/* 3440px (Ultrawide 34") */
+@media (min-width: 3440px) {
+  html {
+    font-size: 40px !important;
+  }
+}
+
+/* 3840px (4K UHD) */
+@media (min-width: 3840px) {
+  html {
+    font-size: 45px !important;
+  }
+}
+
+/* 5120px (5K Retina Display / Ultra-Wide) */
+@media (min-width: 5120px) {
+  html {
+    font-size: 50px !important;
+  }
+}
 @keyframes blink {
     50% {
         background-color: transparent;

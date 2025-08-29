@@ -4,7 +4,7 @@ import { IoCheckmarkCircle } from 'react-icons/io5'
 
 export default function HiringSection() {
     return (
-        <section className='relative z-10 lg:px-28 px-5 pt-20 min-h-screen'>
+        <section className='relative z-10 lg:px-28 px-5 pt-20'>
 
             <h2 className="text-3xl lg:text-[2.7rem] font-semibold text-center">
                 Why Hire Developers From Our Name

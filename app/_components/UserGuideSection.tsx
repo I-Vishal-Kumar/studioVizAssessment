@@ -4,7 +4,7 @@ import { FiCheckCircle } from 'react-icons/fi'
 
 export default function UserGuideSection() {
     return (
-        <section className='relative z-10 px-5 py-20 pb-10 min-h-[60vh]'>
+        <section className='relative z-10 px-5 py-20 pb-10 '>
             <h2 className="text-2xl lg:text-[2.4rem] font-semibold text-center">
                 User Guide to Hire Dedicated Software Developers
             </h2>

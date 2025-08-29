@@ -13,7 +13,7 @@ import { FaArrowDownLong, FaArrowRightLong } from 'react-icons/fa6';
 
 export default function HiringProcessSection() {
     return (
-        <section className='relative z-10 px-5 py-20 pb-10 min-h-[60vh]'>
+        <section className='relative z-10 px-5 py-20 pb-10 '>
             <h2 className="text-3xl lg:text-[2.7rem] font-semibold text-center">
                 Our Hiring Process
             </h2>

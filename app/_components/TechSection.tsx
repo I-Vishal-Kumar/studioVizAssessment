@@ -75,7 +75,7 @@ const categories = [
 
 export default function TechSection() {
     return (
-        <section className='relative z-10 lg:px-28 px-5 md:py-5 py-20 pb-10 min-h-screen'>
+        <section className='relative z-10 lg:px-28 px-5 md:py-5 py-20 pb-10 '>
             <h2 className="text-3xl lg:text-[2.7rem] font-semibold text-center">
                 Our Diverse Technology Competency
             </h2>

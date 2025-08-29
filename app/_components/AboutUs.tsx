@@ -26,7 +26,7 @@ const clients = [
 
 export default function AboutUs() {
     return (
-        <section className='relative z-10 px-5 py-20 pb-10 min-h-[60vh]'>
+        <section className='relative z-10 px-5 py-20 pb-10 '>
             <h2 className="text-3xl lg:text-[2.7rem] font-semibold text-center">
                 What Our Clients Have to Say About Us
             </h2>
